@@ -1,0 +1,12 @@
+{
+  "scriptFile": "WordCounter_Serverless.py",
+  "bindings": [
+    {
+      "name": "myblob",
+      "type": "blobTrigger",
+      "direction": "in",
+      "path": "chatuploads",
+      "connection": "mhteamsblob_STORAGE"
+    }
+  ]
+}
